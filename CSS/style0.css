@@ -1,0 +1,22 @@
+*{
+    font-family:  Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1{
+    color: rgb(216, 17, 20);
+}
+#login{
+    background-color: aquamarine;
+}
+#signup{
+    background-color: rgb(65, 23, 234);
+}
+.upvote{
+    background-color: rgb(65, 23, 234);
+    color: rgb(216, 17, 20);
+}
+.ans{
+    background-color: #17ea5a;
+    color: #b0d811;
+}

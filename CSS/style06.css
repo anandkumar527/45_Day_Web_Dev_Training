@@ -1,0 +1,167 @@
+        /* 1st page */
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .main_container {
+            background-color: rgb(168, 168, 218);
+            width: 70%;
+            margin: 40px auto;
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+            border: 2px solid #07060c;
+            /* Add this line */
+            padding: 20px;
+            /* Add some spacing inside the border */
+            border-radius: 10px;
+            /* Optional: make corners rounded */
+        }
+
+        .img_container {
+            flex: 1;
+        }
+
+        .img_container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .content-container {
+            flex: 2;
+        }
+
+        .content-container h1 {
+            margin-bottom: 10px;
+        }
+
+        .content-container p {
+            text-align: justify;
+        }
+
+        .content_details {
+            margin-top: 20px;
+        }
+
+        .content_details ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            gap: 40px;
+        }
+
+        .content_details ul li {
+            margin-bottom: 8px;
+        }
+
+        .content_details p {
+            margin-top: 20px;
+            text-align: justify;
+        }
+
+        /* 2nd page */
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0px;
+        }
+
+        .container {
+            text-align: left;
+            background-color: rgb(168, 168, 218);
+            width: 70%;
+            margin: 40px auto;
+            align-items: flex-start;
+            border: 2px solid #0d0c11;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: left;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #040404;
+            margin-bottom: 30px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+
+        .skill span {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .progress {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            position: relative;
+            height: 15px;
+        }
+
+        .progress-bar {
+            background-color: #1ca8dd;
+            height: 100%;
+            border-radius: 5px;
+            text-align: right;
+            padding-right: 5px;
+            color: #000;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        /*3RD PAGE  */
+
+        .main {
+            border: 2px solid black;
+        }
+
+        .header {
+            border: 2px solid rgb(18, 16, 16);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .data {
+            border: 2px solid rgb(15, 15, 15);
+            display: flex;
+        }
+
+        .addressdiv {
+            border: 2px solid rgb(18, 18, 17);
+            width: 40%;
+        }
+
+        .form {
+            border: 2px solid rgb(8, 9, 9);
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        input {
+            width: 30%;
+            height: 30px;
+            margin: 10px;
+        }

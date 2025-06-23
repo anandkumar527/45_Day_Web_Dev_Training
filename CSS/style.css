@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, sans-serif;
+    background-color: rgb(155, 158, 145);
+}
+
+h1 {
+    color: rgb(216, 17, 20);
+}
+
+#login {
+    background-color: rgb(219, 198, 58);
+}
+
+#signup {
+    background-color: rgb(65, 23, 234);
+}
+
+.upvote {
+    background-color: rgb(173, 166, 201);
+    color: rgb(0, 0, 0);
+}
+
+.answer {
+    background-color: cornflowerblue;
+    color: rgb(6, 6, 6);
+}
+
+.post a {
+    color: rgb(48, 123, 80);
+}
+
+nav ul li a {
+    color: rgb(61, 11, 241);
+}
+
+nav ul li {
+    color: rgb(175, 14, 14);
+}
+
+h3 {
+    color: brown;
+}
+
+p+h3 {
+    text-decoration-line: underline;
+}
+
+div>input {
+    background-color: rgb(157, 181, 181);
+}
+
+input[type="text"] {
+    color: brown;
+}
+
+input[type="password"] {
+    color: brown;
+}
+
+:nth-of-type(2n) {
+    background-color: rgb(190, 193, 8);
+}

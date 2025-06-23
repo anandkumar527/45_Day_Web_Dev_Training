@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Service Section</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        container {
+            margin-top: 50px;
+        }
+        .service-box {
+            text-align: center;
+            padding: 30px 20px;
+            border: 1px solid #f30909;
+            background-color: aqua;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+        }
+        .service-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+        <!-- Book An Appointment -->
+        <!-- <div class="col-12 col-md-3"> -->
+            <div class="service-box">
+                <div class="service-icon">📅</div>
+                <h5>Book An Appointment</h5>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </p>
+            </div>
+        <!-- </div> -->
+
+        <!-- Pick Up In Store -->
+        <div class="col-12 col-md-6">
+            <div class="service-box">
+                <div class="service-icon">👜</div>
+                <h5>Pick Up In Store</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus voluptates itaque voluptas. Voluptas, eos magni rem nostrum adipisci ex cumque?</p>
+            </div>
+        </div>
+
+        <!-- Special Packaging -->
+        <div class="col-12 col-md-6">
+            <div class="service-box">
+                <div class="service-icon">🎁</div>
+                <h5>Special Packaging</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores eaque odio ullam rem, molestias sed magni? Assumenda minima similique odio?</p>
+            </div>
+        </div>
+
+        <!-- Free Global Returns -->
+        <!-- <div class="col-12 col-md-3"> -->
+            <div class="service-box">
+                <div class="service-icon">🔄</div>
+                <h5>Free Global Returns</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus molestias perferendis impedit amet a dolores ab nostrum fugit maxime?</p>
+            </div>
+        <!-- </div> -->
+
+    </div>
+</div>
+
+<!-- Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

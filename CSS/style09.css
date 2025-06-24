@@ -1,0 +1,21 @@
+.contaner {
+    height: 630px;
+    width: 630px;
+    background-color: rgb(167, 211, 202);
+    border-radius: 0%;
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+
+}
+
+div {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(158, 149, 137);
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+
+}

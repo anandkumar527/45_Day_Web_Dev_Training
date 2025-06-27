@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form action="input user info">
+        <label for="">
+            <label for="">pincoad:</label>
+            <input type="text" name="" id="">
+            <input type="submit" value="submit" onclick="fun()"><br>
+            <label for="">password:</label>
+            <input type="text" name="" id="">
+            <input type="submit" value="submit" onclick="fun()">
+            <!-- name: <input type="text" placeholder="enter name">
+            <button type="submit">submit</button><br>
+            password: <input type="number" placeholder="password">
+            <button type="submit">submit</button><br>
+            mobile number <input type="number" placeholder="enter mobilr number">
+            <button type="submit">submit</button><br> -->
+        </label>
+    </form>
+    <hr>
+</body>
+<h1>Show Data:</h1>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<hr>
+<div id="div1">
+
+</div>
+<script>
+    let obj = {
+        "country": "India",
+        "country abbreviation": "IN",
+        "post code": "302015",
+        "places": [
+            {
+                "place name": "Jaipur 15 Gandhinagar H O",
+                "longitude": "74.8799",
+                "latitude": "26.1748",
+                "state": "Rajasthan",
+                "state abbreviation": "RJ"
+            },
+            {
+                "place name": "S D M Hospital",
+                "longitude": "74.8799",
+                "latitude": "26.1748",
+                "state": "Rajasthan",
+                "state abbreviation": "RJ"
+            }
+        ]
+    }
+    document.getElementsByTagName("p")[0].innerText = obj["country"]
+    document.getElementsByTagName("p")[1].innerText = obj["country abbreviation"]
+    document.getElementsByTagName("p")[2].innerText = obj["post code"]
+    for (let i = 0; i < obj["places"].length; i++) {
+        document.getElementById("div1").innerHTML +=
+            `  <p>${obj["places"][i]["place name"]}</p>
+        <p>${obj["places"][i]["longitude"]}</p>
+        <p>${obj["places"][i]["latitude"]}</p>
+        <p>${obj["places"][i]["state"]}</p>
+        <p>${obj["places"][i]["state abbreviation"]}</p> </br>`
+
+    }
+</script>
+
+</html>
